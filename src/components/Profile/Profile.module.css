@@ -1,0 +1,81 @@
+/* Container for the entire profile card */
+.profile-card {
+  width: 400px;
+  border: 4px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Container for the user information */
+.profile-info {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the avatar image */
+.profile-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #555;
+}
+
+/* Style for the user's name */
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+/* Style for the username */
+.profile-username {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+/* Style for the location */
+.profile-location {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Container for the statistics */
+.profile-stats {
+  display: flex;
+  background-color: #e0e0e0;
+  border-top: 2px solid #a0a0a0;
+}
+
+/* Individual stat item */
+.profile-stats li {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  border-right: 2px solid #a0a0a0;
+}
+
+.profile-stats li:last-child {
+  border-right: none;
+}
+
+/* Style for stat labels */
+.profile-stats span:first-child {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Style for stat values */
+.profile-stats span:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
