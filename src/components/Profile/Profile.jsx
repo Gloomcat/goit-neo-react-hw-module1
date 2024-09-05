@@ -1,6 +1,6 @@
 import css from './Profile.module.css';
 
-export const Profile = ({ name, tag, location, image, stats }) => {
+const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={css['profile-card']}>
       <div className={css['profile-info']}>

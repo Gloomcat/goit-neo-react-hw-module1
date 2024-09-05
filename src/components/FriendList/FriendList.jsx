@@ -16,7 +16,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-export const FriendList = ({ friends }) => {
+const FriendList = ({ friends }) => {
   return (
     <ul className={css['friend-list']}>
       {friends.map(friend => (
